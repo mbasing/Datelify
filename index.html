@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon" />
+    <title>Datelify</title>
+  </head>
+  <body>
+    <header>
+      <a href="#"><img src="assets/logo.png" alt="datelify logo" /></a>
+      <div id="header__info">
+        <p>Already a member?</p>
+        <button>LOG IN</button>
+        <a href="#"><i class="fas fa-bars"></i></a>
+      </div>
+    </header>
+    <div class="container">
+      <div id="img">
+        <div class="main__text">
+          <h1>Meet singles today</h1>
+        </div>
+      </div>
+      <div class="main">
+        <div class="main__query">
+          <div class="row">
+            <div class="row">
+              <label>Gender</label><br />
+              <select id="gender">
+                <option value="A">All</option>
+                <option value="F">Female</option>
+                <option value="M">Male</option>
+              </select>
+            </div>
+            <div class="row">
+              <label>Hobbies</label><br />
+              <input type="text" id="hobby" />
+            </div>
+            <br />
+            <div class="row">
+              <button id="searchBtn">Search</button>
+            </div>
+          </div>
+          <div id="results"></div>
+        </div>
+      </div>
+    </div>
+    <!-- <footer>123</footer> -->
+    <script src="script.js"></script>
+  </body>
+</html>
