@@ -64,6 +64,15 @@ input {
   margin-top: 0.3rem;
 }
 
+input[id="#minAge"],
+input[id="#maxAge"] {
+  width: 10%;
+}
+
+.minMaxAge {
+  display: flex;
+}
+
 #searchBtn {
   outline: 0;
   cursor: pointer;
@@ -190,4 +199,3 @@ header img {
     visibility: hidden;
   }
 }
-
